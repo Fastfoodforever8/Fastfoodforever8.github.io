@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href ="Icons/traffic cone main icon.png"type = "image/x-icon">
+    <link rel="stylesheet" href="History.css">
+    <title>Traffic signs history</title>
+</head>
+<body>
+    <div class="bg">
+
+        <div class="select">
+            <div class="btn-up btn-info" onclick="scroll_duty()">Služby</div>
+            <div class="btn-up btn-shop"><a href="E-shop.html">E-shop</a></div>
+            <div class="btn-up btn-contact" onclick="scroll_contact()">Kontakt</div>  
+        </div>
+
+        <div class="main-bg info" id="scroll_duty">
+            <p class="name-header">Služby</p>
+                <div class="type-duty">
+                    <div class="duty" id="duty-1"><p>Pronájem značení</p>
+                        <div class="PZ-slide" id="PZ-slide">
+                            <div class="nav">
+                                <ul>
+                                    <li>Přechodného dopravního značení</li>
+                                    <li>Dopravního zařízení</li>
+                                    <li>Přechodného vodorovného značení</li>
+                                    <li>Plastových svodidel</li>
+                                    <li>Lávek pro pěší různých délek</li>
+                                    <li>Světelné signalizace</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="duty" id="duty-2"><p>Instalace značení</p>
+                        <div class="PZ-slide" id="IZ-slide">
+                            <div class="nav">
+                                <ul>
+                                    <li>Dopravního značení</li>
+                                    <li>Dopravního zařízení</li>
+                                    <li>Dopravních zrcadel</li>
+                                    <li>Zpomalovacích a vodících prahů, retardérů</li>
+                                    <li>Parkovacích zábran a sloupků</li>
+                                    <li>Balisety</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="duty" id="duty-3"><p>Aplikace značení</p>
+                        <div class="PZ-slide" id="AZ-slide">
+                            <div class="nav">
+                                <ul>
+                                    <li>Vodorovného dopravního značení (VDZ)</li>
+                                    <li>Dopravního zařízení Z9</li>
+                                    <li>Symbolů a čísel různých velikostí</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="duty" id="duty-4"><p>Prodej značení</p>
+                        <div class="PZ-slide" id="SZ-slide">
+                            <div class="nav">
+                                <ul>
+                                    <li>Dopravního značení</li>
+                                    <li>Příslušenství k dopravnímu značení</li>
+                                    <li>Dopravních zařízení</li>
+                                    <li>Dopravních zrcadel</li>
+                                    <li>Zpomalovacích a vodících prahů, retardérů</li>
+                                    <li>Parkovacích zábran a sloupků</li>
+                                    <li>Balisety</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                        <img src="Icons/upload.png" onclick="filter_up()">
+                <div class="type-duty-mobile">
+                    <div class="duty-mobile pz" id="1"><p class="duty-header">Pronájem značení</p>
+                        <ul>
+                            <li>Přechodného dopravního značení</li>
+                            <li>Dopravního zařízení</li>
+                            <li>Přechodného vodorovného značení</li>
+                            <li>Plastových svodidel</li>
+                            <li>Lávek pro pěší různých délek</li>
+                            <li>Světelné signalizace</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="duty-mobile iz" id="2"><p class="duty-header">Instalace značení</p>
+                        <ul>
+                            <li>Dopravního značení</li>
+                            <li>Dopravního zařízení</li>
+                            <li>Dopravních zrcadel</li>
+                            <li>Zpomalovacích a vodících prahů, retardérů</li>
+                            <li>Parkovacích zábran a sloupků</li>
+                            <li>Balisety</li>
+                        </ul>
+                </div>
+
+                
+                <div class="duty-mobile az" id="3"><p class="duty-header">Aplikace značení</p>
+                    <ul>
+                        <li>Vodorovného dopravního značení (VDZ)</li>
+                        <li>Dopravního zařízení Z9</li>
+                        <li>Symbolů a čísel různých velikostí</li>
+                    </ul>
+                </div>
+
+                <div class="duty-mobile prz" id="4"><p class="duty-header">Prodej značení</p>
+                    <ul>
+                        <li>Dopravního značení</li>
+                        <li>Příslušenství k dopravnímu značení</li>
+                        <li>Dopravních zařízení</li>
+                        <li>Dopravních zrcadel</li>
+                        <li>Zpomalovacích a vodících prahů, retardérů</li>
+                        <li>Parkovacích zábran a sloupků</li>
+                        <li>Balisety</li>
+                    </ul>
+                </div>
+
+                                                        <img class="arrow-down" src="Icons/upload.png" onclick="filter_down()">
+            </div>
+
+        
+
+    <div class="dot-line"></div>
+
+        <div class="main-bg" id="scroll_contact">
+            <p class="name-header">Kontakt</p>
+                <div class="contact">
+                    <div class="cont phone"> <h1>Kontakty</h1><p>
+                        <br>Telefon: 730589586 <br> 
+                        E-mail: traffic@gmail.com <br> 
+                        ID datové schránky: hfpsugj</p></div>
+                    <div class="cont time"><h1>Otevírací doba</h1><p>
+                        <br>Po: 9:00 – 16:30 hod<br>
+                        Út:  9:00 – 16:30 hod<br>
+                        St:  9:00 – 16:30 hod<br>
+                        Čt: 9:00 – 16:30 hod<br>
+                        Pá: 9:00 – 14:30 hod</p></div>
+                    <div class="cont adress"><h1>Provozovna</h1><p>
+                        Traffic signs s.r.o.<br>
+                        Starochuchelská 114/28<br>
+                        159 00 Praha 5 – Velká Chuchle<br>
+                        IČ: 06035981<br>
+                        DIČ: CZ06035981</p></div>
+                </div>
+                <div class="map"><iframe style="border:none" src="https://frame.mapy.cz/s/guvefozaru" width="90%" height="500px" frameborder="0"></iframe><!--<iframe style="border:none" src="https://frame.mapy.cz/s/faculatoto" width="90%" height="500px" frameborder="0"></iframe>--></div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
